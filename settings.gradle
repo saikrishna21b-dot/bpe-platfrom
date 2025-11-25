@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'bpe-platform'
+
+include 'common-libs:exception'
+
+// Admin BCs
+include 'admin:identity-service'
+include 'admin:iam-service'
+include 'admin:organization-service'
+include 'admin:staff-service'
+include 'admin:config-service'
+include 'admin:audit-service'
