@@ -1,0 +1,92 @@
+# ------------------------------
+# Java / Spring Boot / Gradle
+# ------------------------------
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# ------------------------------
+# Build directories
+# ------------------------------
+/build/
+/out/
+/dist/
+/target/
+/bin/
+/classes/
+
+# Gradle
+.gradle/
+**/.gradle/
+**/build/
+
+# ------------------------------
+# IDE Files (IntelliJ / Eclipse / VS Code)
+# ------------------------------
+
+# IntelliJ
+*.iml
+*.iws
+*.ipr
+.idea/
+**/.idea/**
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# ------------------------------
+# OS Specific
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Node / Frontend (if added later)
+# ------------------------------
+node_modules/
+npm-debug.log
+
+# ------------------------------
+# Environment / Secrets
+# ------------------------------
+.env
+.env.local
+application-local.properties
+
+# ------------------------------
+# Spring Boot
+# ------------------------------
+spring.log
+
+# ------------------------------
+# Other
+# ------------------------------
+*.bak
+*.tmp
+*~backup~
